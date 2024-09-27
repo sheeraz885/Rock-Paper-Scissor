@@ -69,13 +69,17 @@ img{
   #para{
     font-size: 1.8rem;
   }
+  .pannelbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .pannel{
      background-color: rgb(34, 33, 33);
-     color: #fff;
-     display: inline-block;
-     margin-left: 40%;
-     margin-top: 2rem;
-     border-radius: 1rem;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    display:inline;
 
   }
   .pannel>p{
