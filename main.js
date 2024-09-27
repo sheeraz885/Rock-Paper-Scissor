@@ -17,6 +17,7 @@ const drawGame = ()=>{
   mesg.innerText = `Game Was Draw play again!`;
   mesg.style.backgroundColor = "rgb(34, 33, 33)";
   mesg.style.borderRadius = "1rem";
+  mesg.style.marginLeft="-1.5rem";
 }
 
 const showWinner = (winUser,userChoice,compChoice)=>{
@@ -26,6 +27,7 @@ const showWinner = (winUser,userChoice,compChoice)=>{
   mesg.innerText = `You win! your ${userChoice} beats ${compChoice}`;
   mesg.style.backgroundColor = "green";
   mesg.style.borderRadius = "1rem";
+  mesg.style.marginLeft="-1.5rem";
   countUser++;
 
  }
@@ -35,6 +37,7 @@ const showWinner = (winUser,userChoice,compChoice)=>{
   mesg.innerText = `You lose ${compChoice } beats your ${userChoice} `;
   mesg.style.backgroundColor =  "red";
   mesg.style.borderRadius = "1rem";
+  mesg.style.marginLeft="-1.5rem";
   countComp++;
  }
 }
